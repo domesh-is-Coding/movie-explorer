@@ -1,12 +1,57 @@
-# React + Vite
+# 🎥 Movie Explorer 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern movie search application built with **React**, **Vite**, **Tailwind CSS**, and **OMDb API**. Search for your favorite movies, view details, and manage a personal favorites list — all in a sleek, responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+- **React** (19+)
+- **Vite** (7+)
+- **Tailwind CSS** (4+)
+- **React Router**
+- **Axios**
+- **OMDb API**
+- **Font Awesome Icons**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+✅ Search movies by title  
+✅ View detailed information of selected movies (Poster, Plot, Genre, Year, Actors)  
+✅ Mark movies as Favorite — stored locally via `localStorage`  
+✅ Pagination support for search results  
+✅ Fully responsive, mobile-friendly UI  
+✅ Light/Dark theme compatible  
+
+---
+
+## 📦 Project Structure
+
+
+## Installation
+
+Setup the project with npm and git
+
+```bash
+  git clone https://github.com/domesh-is-Coding/movie-explorer.git
+  cd movie-explorer
+  npm install
+```
+Copy and rename the `.env copy` as `.env`
+## Demo
+
+Insert gif or link to demo
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`VITE_OMDB_URL` : which is "http://www.omdbapi.com/"
+
+`VITE_OMDB_KEY` : Your private OMDB API 
+
+### Note 
+You can Generate the OMDB API KEY By Creating an Account Account [OMDB Website]("http://www.omdbapi.com/")
